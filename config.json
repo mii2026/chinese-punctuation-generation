@@ -1,0 +1,10 @@
+{
+    "sequence_len": 200,
+    "batch_size": 16,
+    "epochs": 20,
+    "learning_rate": 1e-5,
+    "loss_function": "crossentropy",
+    "model_save_path": "model/test",
+    "train_data_path": ["data/train_iwslt.txt", "data/our_train.txt", "data/our_train2.txt", "data/our_train3.txt"],
+    "valid_data_path": ["data/valid_iwslt.txt", "data/our_valid.txt"]
+}
